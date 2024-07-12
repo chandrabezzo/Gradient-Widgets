@@ -157,7 +157,7 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.2"
-  gradient_widgets:
+  gradient_widgets_plus:
     dependency: "direct main"
     description:
       path: ".."

@@ -1,4 +1,4 @@
-library gradient_widgets;
+library gradient_widgets_plus;
 
 export 'src/circular_gradient_button.dart';
 export 'src/gradient_button.dart';

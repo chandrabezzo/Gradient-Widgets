@@ -6,7 +6,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-import '../gradient_widgets.dart';
+import '../gradient_widgets_plus.dart';
 
 const double _kLinearProgressIndicatorHeight = 6.0;
 const int _kIndeterminateLinearDuration = 1800;

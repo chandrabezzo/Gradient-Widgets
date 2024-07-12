@@ -1,5 +1,5 @@
 
-[![Pub](https://img.shields.io/pub/v/gradient_widgets.svg)](https://pub.dartlang.org/packages/gradient_widgets)
+[![Pub](https://img.shields.io/pub/v/gradient_widgets.svg)](https://pub.dartlang.org/packages/gradient_widgets_plus)
 
 
 <img src="art/screenshot-gradient-widgets.png" width="400" alt="Gradient Widgets"/>
@@ -7,12 +7,12 @@
 
 ## Gradient Widgets
 
-> As of ^0.5.0, `shadowColor` is available for gradient buttons and cards 
+> As of ^1.0.0, `shadowColor` is available for gradient buttons and cards 
 
 A minimal set of Flutter widgets encased with beautiful gradients.
 
 You can use them when your UI needs user attention/focus,
-, e.g., login or send actions, or important shopping item title (see [Gradient Screens](https://github.com/bluemix/Gradient-Screens) to get the idea 😉)
+, e.g., login or send actions, or important shopping item title (see [Gradient Screens](https://github.com/chandrabezzo/Gradient-Widgets) to get the idea 😉)
 
 
 ☑️ GradientText
@@ -35,13 +35,13 @@ In your `pubspec.yaml` root add:
 
 ```yaml
 dependencies:
-  gradient_widgets: ^0.6.0
+  gradient_widgets_plus: ^1.0.0
 ```
 
 then,
 
 ```dart
-import 'package:gradient_widgets/gradient_widgets.dart';
+import 'package:gradient_widgets_plus/gradient_widgets_plus.dart';
 ```
 
 

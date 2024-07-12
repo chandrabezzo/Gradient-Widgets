@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:gradient_widgets/gradient_widgets.dart';
+import 'package:gradient_widgets_plus/gradient_widgets_plus.dart';
 
 class NamedGradient {
   NamedGradient(this.gradient, this.name);

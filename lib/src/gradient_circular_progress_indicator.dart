@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-import '../gradient_widgets.dart';
+import '../gradient_widgets_plus.dart';
 
 const double _kCircularProgressIndicatorHeight = 6.0;
 const int _kIndeterminateCircularDuration = 1800;

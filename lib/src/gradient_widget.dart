@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:gradient_widgets/src/common.dart';
 
-import '../gradient_widgets.dart';
+import '../gradient_widgets_plus.dart';
+import 'common.dart';
 
 class GradientWidget extends StatefulWidget {
   const GradientWidget({

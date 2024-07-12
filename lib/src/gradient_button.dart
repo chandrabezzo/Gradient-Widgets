@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../gradient_widgets.dart';
+import '../gradient_widgets_plus.dart';
 import 'gradient_widget.dart';
 
 class GradientButton extends GradientWidget {
