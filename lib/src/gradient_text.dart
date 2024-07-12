@@ -5,8 +5,8 @@ import '../gradient_widgets.dart';
 class GradientText extends StatelessWidget {
   const GradientText(
     this.data, {
-    this.key,
     required this.style,
+    super.key,
     this.gradient = Gradients.hotLinear,
     this.shaderRect,
     this.textAlign,
@@ -17,10 +17,8 @@ class GradientText extends StatelessWidget {
     this.textScaleFactor,
     this.maxLines,
     this.semanticsLabel,
-  }) : super(key: key);
+  });
 
-  @override
-  final Key? key;
   final String data;
   final TextStyle style;
   final TextAlign? textAlign;
@@ -50,7 +48,9 @@ class GradientText extends StatelessWidget {
         locale: locale,
         softWrap: softWrap,
         overflow: overflow,
-        textScaleFactor: textScaleFactor,
+        textScaler: (textScaleFactor != null)
+            ? TextScaler.linear(textScaleFactor!)
+            : null,
         maxLines: maxLines,
         semanticsLabel: semanticsLabel,
       ),

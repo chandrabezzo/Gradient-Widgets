@@ -1,18 +1,20 @@
 name: gradient_widgets
 description: A minimal set of Flutter widgets encased with beautiful gradients.
-version: 0.6.0
-homepage: https://github.com/bluemix/gradient-widgets
+version: 1.0.0
+homepage: https://github.com/chandrabezzo/Gradient-Widgets
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=3.1.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
+  cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true

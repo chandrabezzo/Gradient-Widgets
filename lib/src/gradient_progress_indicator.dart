@@ -3,7 +3,6 @@
 // found in the LICENSE file.
 // modified by https://bluemix.github.io
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
@@ -14,22 +13,20 @@ const int _kIndeterminateLinearDuration = 1800;
 
 class GradientProgressIndicator extends StatefulWidget {
   const GradientProgressIndicator({
-    this.key,
+    super.key,
     this.value,
     this.gradient = Gradients.hotLinear,
-  }) : super(key: key);
+  });
 
-  @override
-  final Key? key;
   final double? value;
   final LinearGradient gradient;
 
   @override
-  _GradientProgressIndicatorState createState() =>
-      _GradientProgressIndicatorState();
+  GradientProgressIndicatorState createState() =>
+      GradientProgressIndicatorState();
 }
 
-class _GradientProgressIndicatorState extends State<GradientProgressIndicator>
+class GradientProgressIndicatorState extends State<GradientProgressIndicator>
     with SingleTickerProviderStateMixin {
   AnimationController? _controller;
   late Animation<double> pAnimation;
@@ -43,7 +40,6 @@ class _GradientProgressIndicatorState extends State<GradientProgressIndicator>
   void initState() {
     super.initState();
 
-    assert(widget.gradient != null, 'Please set the gradient!');
     assert(widget.gradient.colors.length == 2,
         'gradient must have two colors only');
 
