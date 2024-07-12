@@ -1,5 +1,5 @@
 
-[![Pub](https://img.shields.io/pub/v/gradient_widgets.svg)](https://pub.dartlang.org/packages/gradient_widgets_plus)
+[![Pub](https://img.shields.io/pub/v/gradient_widgets_plus.svg)](https://pub.dartlang.org/packages/gradient_widgets_plus)
 
 
 <img src="art/screenshot-gradient-widgets.png" width="400" alt="Gradient Widgets"/>
